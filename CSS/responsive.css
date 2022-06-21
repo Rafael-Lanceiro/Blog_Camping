@@ -125,6 +125,10 @@
         transform: rotate(45deg);
         top: 8px;
     }
+
+    nav.menu {
+        width: 100%;
+    }
 }
 
 @media (max-width: 630px) {
