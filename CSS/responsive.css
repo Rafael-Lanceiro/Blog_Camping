@@ -31,18 +31,10 @@
 }
 
 @media (max-width: 630px) {
-    nav {
-        display: none;
-    }
     main .container-menu img {
         display: none;
     }
-    .container-menu {
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    
     #checkbox-menu {
         position: absolute;
         opacity: 0;
