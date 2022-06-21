@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="widht=device-widht initial-scale=1.0" />
-        <title>Papo de Barraca</title>
-        <link rel="icon" type="image/x-icon" href="/IMG/campingicon.png" />
-        <link rel="stylesheet" href="/CSS/style.css" />
-        <link rel="stylesheet" href="/CSS/responsive.css" />
-    </head>
-    <body>
-        <header>
-            <div class="container">
-                <img src="/IMG/Logo Camping Life sem fundo.webp" alt="logo" />
-                <div class="menu-section">
-                    <div class="container-menu">
-                        <input type="checkbox" id="checkbox-menu" />
-                        <label for="checkbox-menu">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </label>
-                    </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widht=device-widht initial-scale=1.0" />
+    <title>Papo de Barraca</title>
+    <link rel="icon" type="image/x-icon" href="/IMG/campingicon.png" />
+    <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="/CSS/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="/IMG/Logo Camping Life sem fundo.webp" alt="logo" />
+            <div class="menu-section">
+                <div class="container-menu">
+                    <input type="checkbox" id="checkbox-menu" />
+                    <label class="menu-button-container" for="checkbox-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
                     <nav>
                         <ul>
                             <li>
@@ -38,99 +39,102 @@
                     </nav>
                 </div>
             </div>
-        </header>
-        <main>
-            <div class="container-main">
-                <div>
-                    <h1><span>Inscreva-se agora</span></h1>
-                    <h1>na Newslatter</h1>
-                    <h2>
-                        Guiando você por novas experiências de contato com a NATUREZA!
-                    </h2>
-                    <form id="form-main">
-                        <input type="text" placeholder="Nome" />
-                        <input type="email" placeholder="E-mail" />
-                        <input type="submit" value="Enviar" />
-                    </form>
-                </div> 
-                <img src="/IMG/register.webp" alt="" />
-            </div>
-        </main>
-        <section class="cards">
-            <div class="card">
-                <div class="image">
-                    <img src="/IMG/barraca-na-cachoeira-edition.jpg" />
-                </div>
-                <div class="content">
-                    <p class="tittle text--medium">
-                        Campings em cachoeiras!
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">5Min</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="/IMG/barraca-na-praia-edition.jpg" />
-                </div>
-                <div class="content">
-                    <p class="tittle text--medium">
-                        Campings em praias!
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">5Min</p>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="image">
-                    <img src="/IMG/barraca-na-montanha.png" />
-                </div>
-                <div class="content">
-                    <p class="tittle text--medium">
-                        Campings nas montanhas!
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">5Min</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="form">
-            <div class="contato">
-                <h3>Contato</h3>
-                <form action="#" method="post">
-                    <fieldset>
-                        <legend>Dados Pessoais:</legend>
-                        <div>
-                            <label for="name" class="obrigatorio">Nome:*</label>
-                            <input type="text" placeholder="Nome completo" id="name" name="nome" required>
-                        </div>
-                        <div>
-                            <label for="mail" class="obrigatorio">E-mail:*</label>
-                            <input type="email" placeholder="usuario@email.com" id="mail" name="email" size="30" required>
-                        </div>
-                    </fieldset>
-                    <div>
-                        <label for="subject">Assunto:</label>
-                        <select name="opcao" id="subject">
-                            <option value="" selected></option>
-                            <option value="sugestao" id="suggestion">Sugestão</option>
-                            <option value="reclamacao" id="complaint">Reclamação</option>
-                            <option value="elogio" id="praise">Elogio</option>
-                            <option value="outro" id="other">Outro</option>
-                        </select>
-                    </div>
-                    <div>
-                        <label id="message-form" for="message" class="obrigatorio">Mensagem:*</label>
-                        <textarea name="mensagem" id="message" placeholder="Digite a mensagem aqui" maxlength="500" required></textarea>
-                    </div>
-                    <div id="button" class="cadastro">
-                        <input type="submit" value="Enviar mensagem">
-                    </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-main">
+            <div>
+                <h1><span>Inscreva-se agora</span></h1>
+                <h1>na Newslatter</h1>
+                <h2>
+                    Guiando você por novas experiências de contato com a NATUREZA!
+                </h2>
+                <form id="form-main">
+                    <input type="text" placeholder="Nome" />
+                    <input type="email" placeholder="E-mail" />
+                    <input type="submit" value="Enviar" />
                 </form>
             </div>
-        </section>
-    </body>
+            <img src="/IMG/register.webp" alt="" />
+        </div>
+    </main>
+    <section class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="/IMG/barraca-na-cachoeira-edition.jpg" />
+            </div>
+            <div class="content">
+                <p class="tittle text--medium">
+                    Campings em cachoeiras!
+                </p>
+                <div class="info">
+                    <p class="text--medium">5Min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="/IMG/barraca-na-praia-edition.jpg" />
+            </div>
+            <div class="content">
+                <p class="tittle text--medium">
+                    Campings em praias!
+                </p>
+                <div class="info">
+                    <p class="text--medium">5Min</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="/IMG/barraca-na-montanha.png" />
+            </div>
+            <div class="content">
+                <p class="tittle text--medium">
+                    Campings nas montanhas!
+                </p>
+                <div class="info">
+                    <p class="text--medium">5Min</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <div class="contato">
+            <h3>Contato</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Dados Pessoais:</legend>
+                    <div>
+                        <label for="name" class="obrigatorio">Nome:*</label>
+                        <input type="text" placeholder="Nome completo" id="name" name="nome" required>
+                    </div>
+                    <div>
+                        <label for="mail" class="obrigatorio">E-mail:*</label>
+                        <input type="email" placeholder="usuario@email.com" id="mail" name="email" size="30" required>
+                    </div>
+                </fieldset>
+                <div>
+                    <label for="subject">Assunto:</label>
+                    <select name="opcao" id="subject">
+                        <option value="" selected></option>
+                        <option value="sugestao" id="suggestion">Sugestão</option>
+                        <option value="reclamacao" id="complaint">Reclamação</option>
+                        <option value="elogio" id="praise">Elogio</option>
+                        <option value="outro" id="other">Outro</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="message-form" for="message" class="obrigatorio">Mensagem:*</label>
+                    <textarea name="mensagem" id="message" placeholder="Digite a mensagem aqui" maxlength="500"
+                        required></textarea>
+                </div>
+                <div id="button" class="cadastro">
+                    <input type="submit" value="Enviar mensagem">
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+
 </html>
