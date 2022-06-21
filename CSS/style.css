@@ -102,6 +102,10 @@ h2 {
 #form-main [type="submit"] {
     background-color: #0000CD;
     color: #ffff;
+    width: 150px;
+    padding-left: 0px;
+    font-size: 16px;
+    height: 40px;
 }
 
 #form-main [type="submit"]:hover {
