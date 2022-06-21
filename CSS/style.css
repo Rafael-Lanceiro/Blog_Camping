@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2? family= Noto+Sans:ital,wght@0,200;0,500;0,700;1,300 & family= Poppins:ital,wght@0,400;0,700; 1,200;1,500 & family= Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,400 & display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: 0;
 }
+
 html,
 body {
     height: 100vh;
@@ -17,6 +19,7 @@ body {
 header {
     background-color: #32CD32;
 }
+
 header .container {
     display: flex;
     align-items: center;
@@ -25,12 +28,15 @@ header .container {
     height: 80px;
     margin: auto;
 }
+
 header nav ul {
     display: flex;
 }
+
 header nav ul li {
     list-style: none;
 }
+
 header nav ul li a {
     text-decoration: none;
     color: #0000CD;
@@ -39,17 +45,25 @@ header nav ul li a {
     padding: 24px;
     transition: all 250ms linear 0s;
 }
+
 header nav ul li a:hover {
     background: rgba(255, 255, 255, 0.15);
 }
+
 header .container img {
     height: 60px;
 }
+
+#checkbox {
+    display: none;
+}
+
 
 /*SEÇÃO MAIN*/
 main {
     margin-bottom: 100px;
 }
+
 main .container-main {
     display: flex;
     align-items: center;
@@ -57,21 +71,25 @@ main .container-main {
     max-width: 980px;
     margin: 100px auto 0 auto;
 }
+
 h1 {
     color: #0000CD;
-    font-size: 34px; 
+    font-size: 34px;
     line-height: 50px;
     font-weight: bold;
 }
+
 h2 {
     color: #4F4F4F;
     font-size: 18px;
     line-height: 28px;
     margin: 10px 0;
 }
+
 #form-main {
     margin-top: 20px;
 }
+
 #form-main input {
     width: 380px;
     padding-left: 15px;
@@ -81,13 +99,16 @@ h2 {
     border-radius: 20px;
     border: 2px solid #0000CD;
 }
+
 #form-main [type="submit"] {
     background-color: #0000CD;
     color: #ffff;
 }
+
 #form-main [type="submit"]:hover {
     cursor: pointer;
 }
+
 main .container-main img {
     width: 450px;
 }
@@ -101,12 +122,14 @@ main .container-main img {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
 }
+
 .text--medium {
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
-    color: #4F4F4F 
+    color: #4F4F4F
 }
+
 .card {
     display: flex;
     flex-direction: column;
@@ -114,15 +137,18 @@ main .container-main img {
     box-shadow: 5px 5px 15px -4px #000;
     transition: all 0.3s ease 0s;
 }
+
 .card:hover {
     transform: translateY(-7px);
 }
+
 .image {
     width: 100%;
     padding-top: 50%;
     overflow: hidden;
     position: relative;
 }
+
 .image img {
     position: absolute;
     border-radius: 10px;
@@ -130,9 +156,11 @@ main .container-main img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 .content {
     margin: 20px;
 }
+
 .text {
     margin-bottom: 0px;
 }
@@ -144,28 +172,32 @@ main .container-main img {
     justify-content: center;
     height: 450px;
     align-items: center;
-    border: 1px solid #0000CD ;
+    border: 1px solid #0000CD;
     margin: 100px auto;
     max-width: 980px;
 }
+
 .contato h3 {
     font-size: 40px;
     color: #0000CD;
     text-align: center;
     margin-bottom: 20px;
 }
+
 fieldset {
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 0;
     border: none;
 }
+
 legend {
     color: #0000CD;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
 }
+
 label {
     color: #0000CD;
     font-size: 15px;
@@ -174,9 +206,11 @@ label {
     text-align: left;
     font-weight: bold;
 }
+
 #message-form {
     margin-top: 20px;
 }
+
 textarea {
     vertical-align: text-top;
     width: 400px;
@@ -184,24 +218,30 @@ textarea {
     margin-bottom: 5px;
     overflow: scroll;
 }
+
 #name,
 #mail,
 #subject {
     width: 300px;
     height: 25px;
 }
+
 #name {
     margin-bottom: 10px;
 }
+
 #suggestion {
     color: #32CD32;
 }
+
 #complaint {
     color: #FF0000;
 }
+
 #praise {
     color: #8B4513;
 }
+
 .cadastro input {
     background-color: #0000CD;
     color: #ffff;
@@ -212,6 +252,7 @@ textarea {
     border-radius: 20px;
     border: 1px solid #0000CD;
 }
+
 .cadastro input:hover {
     cursor: pointer;
 }
