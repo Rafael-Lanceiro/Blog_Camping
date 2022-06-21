@@ -68,6 +68,12 @@
         border-bottom: 1px solid #ffffff;
     }
 
+    .menu>li:first-child {
+        border-top: 1px solid #ffffff;
+    }
+
+    }
+
     .menu li a {
         flex: 1;
         text-align: center;
