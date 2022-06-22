@@ -138,4 +138,9 @@
     nav.menu {
         width: 100%;
     }
+
+    .end {
+        display: blocks;
+        width: 100%;
+    }
 }
