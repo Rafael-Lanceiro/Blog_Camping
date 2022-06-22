@@ -139,14 +139,3 @@
         width: 100%;
     }
 }
-
-
-@media (max-width: 630px) {
-    #form {
-        width: 100%;
-        height: auto;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
