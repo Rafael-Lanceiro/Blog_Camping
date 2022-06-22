@@ -189,8 +189,9 @@ a {
     justify-content: center;
 }
 .end p {
-    font-size: 2rem;
+    font-size: 15px;
     color: #ffffff;
+    margin-top: 10px;
     text-align: center;
 }
 .end a {
