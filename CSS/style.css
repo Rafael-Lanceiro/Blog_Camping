@@ -111,6 +111,7 @@ h2 {
 #form-main [type="submit"]:hover {
     cursor: pointer;
     background-color: rgba(0, 128, 237, 0.75);
+    transform: translateY(-2px);
 }
 
 main .container-main img {
